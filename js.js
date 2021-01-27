@@ -1,11 +1,18 @@
-var coffetype=prompt("what do you want ?");
-var numofcups=prompt("how many?") ;
+var Ainme=prompt("What Anime is your fav?");
+var numofshirts=prompt("How many Tshirts you want to order?") ;
 
 
 var orderDetails;
 
-if (numofcup >=1 && numofcups <3) {
-    orderDetails="congrats you have a discount 25%";
-} else if (numofcups > 3 && numofcups <=5){
-    orderDetails="congrats you have a discount 50%";
+if (numofshirts >= 1 && numofshirts <3){
+    orderDetails="Congrats you have a discount 25%";
+}
+ else if (numofshirts > 3 && numofshirts <=5){
+    orderDetails="Congrats you have a discount 50%";
+}
+ else if (numofshirts > 6 && numofshirts <=10){
+    orderDetails="Congrats you have a discount 50% and a Figuer of your fav character";
+}
+ else if (numofshirts > 10);{
+    orderDetails="Congrats you have a discount 50% , a Figuer of your fav character , and a Manga!!!";
 }
