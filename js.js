@@ -1,4 +1,4 @@
-var Ainme=prompt("What Anime is your fav?");
+var Anime=prompt("What Anime is your fav?");
 var numofshirts=prompt("How many Tshirts you want to order?") ;
 
 
@@ -16,3 +16,10 @@ if (numofshirts >= 1 && numofshirts <3){
  else if (numofshirts > 10);{
     orderDetails="Congrats you have a discount 50% , a Figuer of your fav character , and a Manga!!!";
 }
+
+
+document.getwrite (orderDetails);
+document.getElementById("order").innerText-Anime;
+
+confirm("Are you happy with the offer??");
+alert("Arigatou");
