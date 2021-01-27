@@ -23,6 +23,7 @@ else{
 
 document.getwrite (orderDetails);
 document.getElementById("order").innerText-Anime;
+document.getElementById("order").innerText-numofshirts;
 
 confirm("Are you happy with the offer??");
 alert("Arigatou");
