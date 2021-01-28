@@ -1,4 +1,7 @@
-var Anime=prompt("What Anime is your fav?");
+var Anime=prompt("Are you a fan of Aot or Bleach?");
+while (Anime !== 'Aot' && Anime !== 'Bleach'){
+    Anime=prompt("Are you a fan of Aot or Bleach?");
+}
 var numofshirts=prompt("How many Tshirts you want to order?");
 
 var orderDetails;
@@ -25,8 +28,22 @@ else {
     orderDetails="No discount :(";
     confirm("You have to buy in order to get a discount!")
 }
+var result = '' ;
+
+var image = ' ';
+if (Anime === 'Aot'){
+    image = '<img src="images/attackon.jpg"/>';
+
+} else if (Anime === 'Bleach'){
+    image = '<img src="images/bleach.jpg"/>';
+}
+
+for (var i = 0 ; i < numofshirts;i++){
+    result = result + image ;
+}
 
 document.write(orderDetails);
+document.write(result);
 
 document.getElementById("order").innerText="Num of Tshirts : "+numofshirts;
 document.getElementById("order2").innerText="Fav Anime : "+Anime;
