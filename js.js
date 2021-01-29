@@ -1,6 +1,6 @@
 var Anime=prompt("Are you a fan of Aot or Bleach (Type Aot or Bleach)?");
 while (Anime !== 'Aot' && Anime !== 'Bleach'){
-    Anime=prompt("Are you a fan of Aot or Bleach?");
+    Anime=prompt("Are you a fan of Aot or Bleach? (Type Aot or Bleach)");
 }
 var numofshirts=prompt("How many Tshirts you want to order?");
 
@@ -47,6 +47,7 @@ document.write(result);
 
 document.getElementById("order").innerText="Num of Tshirts : "+numofshirts;
 document.getElementById("order2").innerText="Fav Anime : "+Anime;
+
 
 confirm("Do you live in Amman ?");
 alert("Arigatou");
