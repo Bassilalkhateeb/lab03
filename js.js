@@ -1,4 +1,4 @@
-var Anime=prompt("Are you a fan of Aot or Bleach?");
+var Anime=prompt("Are you a fan of Aot or Bleach (Type Aot or Bleach)?");
 while (Anime !== 'Aot' && Anime !== 'Bleach'){
     Anime=prompt("Are you a fan of Aot or Bleach?");
 }
