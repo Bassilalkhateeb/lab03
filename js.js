@@ -54,10 +54,10 @@ function second(){
 second()
 
 var third = function (a,b) {
-var y = alert(Anime+' ' +numofshirts);
+var y = alert(a+' ' +b);
 console.log (y);
 };
-third (Anime+numofshirts);
+third (Anime,numofshirts);
 
 document.write(result);
 document.getElementById("order").innerText="Num of Tshirts : "+numofshirts;
