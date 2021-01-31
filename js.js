@@ -53,6 +53,12 @@ function second(){
 }
 second()
 
+var third = function (a,b) {
+var y = alert(Anime+' ' +numofshirts);
+console.log (y);
+};
+third (Anime+numofshirts);
+
 document.write(result);
 document.getElementById("order").innerText="Num of Tshirts : "+numofshirts;
 document.getElementById("order2").innerText="Fav Anime : "+Anime;
