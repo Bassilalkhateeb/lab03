@@ -42,11 +42,12 @@ for (var i = 0 ; i < numofshirts;i++){
     result = result + image ;
 }
 
-document.write(orderDetails);
+
 document.write(result);
 
 document.getElementById("order").innerText="Num of Tshirts : "+numofshirts;
 document.getElementById("order2").innerText="Fav Anime : "+Anime;
+document.getElementById("discmsg").innerText=orderDetails;
 
 
 confirm("Do you live in Amman ?");

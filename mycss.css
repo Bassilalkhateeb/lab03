@@ -1,0 +1,15 @@
+
+a { color: orange;
+text-decoration: palegreen;
+}
+
+#discmsg {
+    color: #dbdf12 ;
+}
+body header ul {
+    color: rgb(32, 141, 74);
+}
+/* i used 3 ways of coloring */
+body header ul {
+    display: inline-block;
+}
