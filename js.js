@@ -32,12 +32,11 @@ function first() {
         confirm("You have to buy in order to get a discount!")
     }
 }
-first()
+first();
+
+
 var orderDetails;
-
-
 var result = '' ;
-
 var image = ' ';
 function second(){
     if (Anime === 'Aot'){
@@ -53,12 +52,13 @@ function second(){
 }
 second()
 
-var third = function (a,b) {
-var y = alert(a+' ' +b);
-console.log (y);
-};
+var third = function (a,b){
+    var y = alert(a+' ' +b);
+    
+}
 third (Anime,numofshirts);
 
+console.log(third);
 document.write(result);
 document.getElementById("order").innerText="Num of Tshirts : "+numofshirts;
 document.getElementById("order2").innerText="Fav Anime : "+Anime;
