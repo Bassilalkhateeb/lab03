@@ -6,25 +6,26 @@ var numofshirts=prompt("How many Tshirts you want to order?");
 
 
 
+var orderDetails ='';
 
 // Here is my functions //
 function first() {
     if (numofshirts >= 1 && numofshirts <= 4){
 
         orderDetails="Congrats you have a discount 25%";
-        confirm("Are you happy with the offer??")
+        
     }
      else if (numofshirts > 4 && numofshirts <=8){
         orderDetails="Congrats you have a discount 50%";
-        confirm("Are you happy with the offer??")
+        
     }
      else if (numofshirts > 8 && numofshirts <=12){
         orderDetails="Congrats you have a discount 50% and a Figuer of your fav character";
-        confirm("Are you happy with the offer??")
+        
     }
      else if (numofshirts > 12){
         orderDetails="Congrats you have a discount 50% , a Figuer of your fav character , and a Manga!!!";
-        confirm("Are you happy with the offer??")
+        
     }
     
     else {
@@ -35,7 +36,6 @@ function first() {
 first();
 
 
-var orderDetails;
 var result = '' ;
 var image = ' ';
 function second(){
@@ -64,6 +64,6 @@ document.getElementById("order").innerText="Num of Tshirts : "+numofshirts;
 document.getElementById("order2").innerText="Fav Anime : "+Anime;
 document.getElementById("discmsg").innerText=orderDetails;
 
-
+confirm("Are you happy with the offer??")
 confirm("Do you live in Amman ?");
 alert("Arigatou");
